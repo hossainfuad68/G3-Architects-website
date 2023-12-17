@@ -49,11 +49,42 @@ header{
     cursor: pointer;
 
 }
+.banner-img{
+    margin:0 300px
 
+}
 .banner-img img{
-    align-items:center;
-    width: 1200px;
-    height: 600px;
-    margin: 20px 350px;
+    margin-bottom: 20px;
+    width:100%;
+
+ 
+
+
+}
+
+/*small dvice*/
+@media screen  and (max-width:640px){
+  /*HEADER*/
+    nav{
+         flex-direction: column-reverse;
+         margin: 0%;
+         padding: 0%;
+    }
+    nav ul {
+        margin-top: 10px;
+        padding: 0%;
+        margin-bottom: 30px;
+    }
+
+    .banner{
+        padding: 30px;
+    }
+    .banner-tittle{
+        font-size: 30px;
+    }
+    .banner-img{
+        width:100% ;
+        margin:0 ;
+    }
 
 }
