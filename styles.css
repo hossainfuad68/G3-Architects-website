@@ -45,7 +45,7 @@ header{
     font-size: 20px;
     font-weight: 500;
     padding: 10px 20px;
-    margin:20px;
+    margin:20px 0;
     cursor: pointer;
 
 }
@@ -56,10 +56,48 @@ header{
 .banner-img img{
     margin-bottom: 20px;
     width:100%;
+}
+/*MAIN STYLES*/
+main{
+    max-width:1440px ;
+    margin:0 auto;
+}
 
- 
-
-
+/*TEAMS CONTAINER*/
+.teams-container{
+    display: flex;
+    align-items: center ;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding: 0 70px;
+}
+.temas-title{
+    font-size: 3rem;
+    width: 470px;
+}
+   /*TEAMS HEADER COLOR*/
+   .quick-list{
+    color: var(--Dark-03, #727272);
+    font-weight: 500;
+   }
+   .of-our{
+    color: var(--Dark-01, #131313);
+    font-weight: 700;
+   }
+   .features{
+    color: #FF900E;
+    font-weight: 700;
+   }
+.teams-discription{
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
 }
 
 /*small dvice*/
